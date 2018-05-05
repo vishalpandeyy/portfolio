@@ -1,8 +1,6 @@
 <template>
   <div id="app">
-    <figure class="image is-128x128">
-      <img id="profileImg" src="./assets/vishal.jpg">
-    </figure>
+    <img src="./assets/logo.png">
     <router-view/>
   </div>
 </template>
@@ -13,8 +11,13 @@ export default {
 }
 </script>
 
-<style lang="sass">
-@import '../node_modules/bulma/bulma.sass'
-@import 'mq'
-
+<style>
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
 </style>
